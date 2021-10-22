@@ -33,9 +33,9 @@ Agora ficou mais fácil ter o serviço de cotações do Melhor Envio no seu proj
 ## Dependências
 
 ### require 
-* PHP >= 5.6
+* PHP >= 7.0
 * Ext-json = *
-* Guzzlehttp/guzzle >= 6.5
+* Guzzlehttp/guzzle >= 7.4
 
 ### require-dev
 * phpunit/phpunit >= 5
