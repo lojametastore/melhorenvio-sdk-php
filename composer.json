@@ -1,18 +1,23 @@
 {
-    "name": "skay1994/shipment-sdk-php",
+    "name": "orbitalcodes/shipment-sdk-php",
     "description": "Este pacote é responsável por realizar o cálculo de cotações.",
     "keywords": [
         "melhorenvio",
         "shipment-sdk-php",
         "melhorenvio-sdk-php"
     ],
-    "homepage": "https://github.com/melhorenvio/shipment-sdk-php",
+    "homepage": "https://github.com/orbitalcodes/shipment-sdk-php",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Melhor Envio",
             "email": "tecnologia@melhorenvio.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Kallef Alexandre",
+            "email": "kallef@orbitaldev.com.br",
             "role": "Developer"
         }
     ],
