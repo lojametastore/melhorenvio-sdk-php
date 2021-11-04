@@ -1,5 +1,5 @@
 {
-    "name": "orbitalcodes/shipment-sdk-php",
+    "name": "lojametastore/shipment-sdk-php",
     "description": "Este pacote é responsável por realizar o cálculo de cotações.",
     "keywords": [
         "melhorenvio",
@@ -17,14 +17,14 @@
         },
         {
             "name": "Kallef Alexandre",
-            "email": "kallef@orbitaldev.com.br",
+            "email": "kallef.alexandre@lojametastore.com.br",
             "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7",
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^7.0 || ^6.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5"
