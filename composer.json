@@ -1,5 +1,5 @@
 {
-    "name": "lojametastore/shipment-sdk-php",
+    "name": "lojametastore/melhorenvio-sdk-php",
     "description": "Este pacote é responsável por realizar o cálculo de cotações.",
     "keywords": [
         "melhorenvio",
