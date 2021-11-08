@@ -8,7 +8,7 @@ use MelhorEnvio\Enums\Service;
 use MelhorEnvio\Enums\Environment;
 
 // Create Shipment Instance
-$shipment = new Shipment('your-token', Environment::PRODUCTION);
+$shipment = new Shipment('token', Environment::SANDBOX);
 
 try {
     // Create Calculator Instance
@@ -35,6 +35,7 @@ try {
     $quotations = $calculator->calculate();
 }catch (Exception $exception) {
     //Proper exception context
+    dd($exception->getMessage());
 }
 
 print_r($quotations);

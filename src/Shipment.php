@@ -4,6 +4,7 @@ namespace MelhorEnvio;
 
 use MelhorEnvio\Resources\Base;
 use MelhorEnvio\Resources\Shipment\Calculator;
+use MelhorEnvio\Resources\Shipment\Service;
 
 class Shipment extends Base
 {
@@ -13,5 +14,13 @@ class Shipment extends Base
     public function calculator()
     {
         return new Calculator($this);
+    }
+
+    /**
+     * @return Service()
+     */
+    public function service()
+    {
+        return new Service($this);
     }
 }
